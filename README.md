@@ -1,20 +1,20 @@
 # Instructions to install
 
-Install packages from requirements.txt:
-pip install -r requirements.txt
+Install packages from requirements.txt: <br>
+pip install -r requirements.txt <br>
 
-Download the SSL certificate from TiDB:
-Connect > Connect with SQLAlchemy > Download CA Cert
-Rename it to cert.pem
-Paste it in the same folder as the program
+Download the SSL certificate from TiDB: <br>
+Connect > Connect with SQLAlchemy > Download CA Cert <br>
+Rename it to cert.pem <br>
+Paste it in the same folder as the program <br>
 
-Create a .env file like so:
-TIDB_USER=<your_username>
-TIDB_PASSWORD=<your_password>
-TIDB_HOST=<your_host>
-TIDB_PORT=4000
-TIDB_DATABASE=test
-OPENAI_API_KEY=<your_openai_api_key>
+Create a .env file like so: <br>
+TIDB_USER=<your_username> <br>
+TIDB_PASSWORD=<your_password> <br>
+TIDB_HOST=<your_host> <br>
+TIDB_PORT=4000 <br>
+TIDB_DATABASE=test <br>
+OPENAI_API_KEY=<your_openai_api_key> <br>
 
-Run the program:
-streamlit run main.py
+Run the program: <br>
+streamlit run main.py <br>
